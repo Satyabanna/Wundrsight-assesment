@@ -1,0 +1,23 @@
+# Core Dependencies
+torch>=2.1.0
+transformers>=4.40.0
+accelerate>=0.27.2
+sentence-transformers>=2.6.1
+faiss-cpu>=1.7.4
+
+# LangChain and Loaders
+langchain>=0.1.17
+pypdf>=3.17.1
+
+# Tokenizer and Safety
+huggingface-hub>=0.20.3
+python-dotenv>=1.0.1
+
+# Optional (for CLI token input)
+ipython>=8.23.0
+
+# PDF reading fallback
+pdfplumber>=0.10.3
+
+# For tqdm progress bars
+tqdm>=4.66.2
